@@ -7,11 +7,11 @@ namespace Demo_04
     //// 3. Interface -> Functions
     //// 4. Enum
 
-    class NewData
-    {
-        public int Sum;
-        public int Mul;
-    }
+    //class NewData
+    //{
+    //    public int Sum;
+    //    public int Mul;
+    //}
     internal class Program
     {
 
@@ -33,10 +33,10 @@ namespace Demo_04
         //    }
         //}
 
-        static int SumNumbers(int Num1,  int Num2)
-        {
-            return Num1 + Num2;
-        }
+        //static int SumNumbers(int Num1,  int Num2)
+        //{
+        //    return Num1 + Num2;
+        //}
 
         //static void SWAP(int X, int Y) 
         //{
