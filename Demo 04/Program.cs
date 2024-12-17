@@ -15,6 +15,8 @@ namespace Demo_04
     internal class Program
     {
 
+        #region Function Prototype
+
         //static void PrintShape()
         //{
         //    // Body
@@ -36,15 +38,11 @@ namespace Demo_04
         //static int SumNumbers(int Num1,  int Num2)
         //{
         //    return Num1 + Num2;
-        //}
+        //} 
 
-        //static void SWAP(int X, int Y) 
-        //{
-        //    int Temp = X;
-        //    X = Y;
-        //    Y = Temp;
-        //}
+        #endregion
 
+        #region Passing Value Type Parameters
         //static void SWAP(int X, int Y)
         //{
         //    int Temp = X;
@@ -56,8 +54,10 @@ namespace Demo_04
         //    int Temp = X;
         //    X = Y;
         //    Y = Temp;
-        //}
+        //} 
+        #endregion
 
+        #region Passing Reference Type Parameters
         //static int SumArray(int[] Arr)
         //{
         //    int Sum = 0;
@@ -84,6 +84,7 @@ namespace Demo_04
 
         //    return Sum;
         //}
+
         //static int SumArray(int[] Arr)
         //{
         //    int Sum = 0;
@@ -110,8 +111,10 @@ namespace Demo_04
         //    }
 
         //    return Sum;
-        //}
+        //} 
+        #endregion
 
+        #region Passing By Out
         //static int[] SumMul(int X,  int Y)
         //{
         //    int[] Result = { X + Y, X * Y };
@@ -121,19 +124,21 @@ namespace Demo_04
         //static NewData SumMul (int X,  int Y)
         //{
         //    NewData data = new NewData();
-            
+
         //    data.Sum = X + Y;
         //    data.Mul = X * Y;
 
         //    return data;
         //}
-        
+
         //static void SumMul (int X,  int Y, out int Sum, out int Mul)
         //{
         //    Sum = X + Y;
         //    Mul = X * Y;
-        //}
+        //} 
+        #endregion
 
+        #region Params
         //static int SumArray(params int[] Arr)
         //{
         //    int Sum = 0;
@@ -142,7 +147,8 @@ namespace Demo_04
         //        Sum += Arr[i];
         //    }
         //    return Sum;
-        //}
+        //} 
+        #endregion
 
         // Entery point
         static void Main(string[] args)
@@ -312,7 +318,7 @@ namespace Demo_04
 
             #endregion
 
-            #region Passing Parameters Value Type
+            #region Passing Value Type Parameters
 
             #region Passing By Value
 
@@ -356,7 +362,7 @@ namespace Demo_04
 
             #endregion
 
-            #region Passing Parameters Reference Type
+            #region Passing Reference Type Parameters
 
             #region EX01
 
