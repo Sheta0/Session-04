@@ -1,4 +1,6 @@
-﻿namespace Assignment_04
+﻿using System.Xml;
+
+namespace Assignment_04
 {
     internal class Program
     {
@@ -63,8 +65,169 @@
 
             #endregion
 
+            #region Q4
 
+            //int[] Numbers = { 21, 12, 5, 32, 91 };
 
+            //int Max = Numbers[0];
+            //int SecondLargest = Numbers[0];
+
+            //for (int i = 1; i < Numbers.Length; i++)
+            //{
+            //    if (Numbers[i] > Max)
+            //    {
+            //        SecondLargest = Max;
+            //        Max = Numbers[i];
+            //    } else if (Numbers[i] > SecondLargest && Numbers[i] != Max) 
+            //        SecondLargest = Numbers[i];
+            //}
+
+            //Console.WriteLine(Max);
+
+            //Console.WriteLine(SecondLargest);
+            #endregion
+
+            #region Q5
+
+            //int ArrLength;
+            //do
+            //{
+            //    Console.Write("Enter The Array length : ");
+            //} while (!int.TryParse(Console.ReadLine(), out ArrLength));
+
+            //int[] Numbers = new int[ArrLength];
+
+            //Console.WriteLine("=============================");
+
+            //for (int i = 0; i < ArrLength; i++)
+            //{
+            //    do
+            //    {
+            //        Console.Write($"Numbers[{i + 1}] :  ");
+            //    } while (!int.TryParse(Console.ReadLine(), out Numbers[i]));
+            //}
+
+            //int MaxDistance= 0, Number = 0, FirstInstance= 0, LastInstance = 0;
+
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    for (int j = Numbers.Length - 1; j > i; j--)
+            //    {
+            //        if (Numbers[i] == Numbers[j])
+            //        {
+            //            if (j - i - 1 > MaxDistance)
+            //            {
+            //                MaxDistance = j - i - 1;
+            //                Number = Numbers[i];
+            //                FirstInstance = i + 1;
+            //                LastInstance = j + 1;
+            //                break;
+            //            }
+            //        }
+            //    }
+            //}
+
+            //Console.WriteLine("=============================");
+
+            //Console.WriteLine($"The longest distance is between Number {Number} in cell {FirstInstance} and cell {LastInstance}  = {MaxDistance}");
+
+            #endregion
+
+            #region Q6
+
+            //string Text;
+            //do
+            //{
+            //    Console.Write("Enter your string: ");
+            //    Text = Console.ReadLine();
+            //} while (string.IsNullOrWhiteSpace(Text));
+
+            //Console.WriteLine(string.Join(" ", Text.Split(' ').Reverse()));
+
+            #endregion
+
+            #region Q7
+
+            //int Rows;
+            //do
+            //{
+            //    Console.Write("Enter the number of rows : ");
+            //} while (!int.TryParse(Console.ReadLine(), out Rows) || Rows <= 0);
+
+            //int Cols;
+            //do
+            //{
+            //    Console.Write("Enter the number of columns : ");
+            //} while (!int.TryParse(Console.ReadLine(), out Cols) || Cols <= 0);
+
+            //int[,] FirstArray = new int[Rows, Cols];
+            //int[,] SecondArray = new int[Rows, Cols];
+
+            //Console.WriteLine("=========================================");
+
+            //Console.WriteLine("Enter the First Array : ");
+
+            //for (int i = 0; i < Rows; i++)
+            //{
+            //    for (int j = 0; j < Cols; j++)
+            //    {
+            //        do
+            //        {
+            //            Console.Write($"FirstArray [{i},{j}]: ");
+            //        } while (!int.TryParse(Console.ReadLine(), out FirstArray[i, j]));
+            //    }
+            //}
+
+            //for (int i = 0; i < Rows; i++)
+            //{
+            //    for (int j = 0; j < Cols; j++)
+            //    {
+            //        SecondArray[i, j] = FirstArray[i, j];
+            //    }
+            //}
+
+            //Console.WriteLine("=========================================");
+
+            //Console.WriteLine("The second array is:");
+            //for (int i = 0; i < Rows; i++)
+            //{
+            //    for (int j = 0; j < Cols; j++)
+            //    {
+            //        Console.Write(SecondArray[i, j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
+
+            #region Q8
+
+            //int ArrLength;
+            //do
+            //{
+            //    Console.Write("Enter The Array length : ");
+            //} while (!int.TryParse(Console.ReadLine(), out ArrLength));
+
+            //int[] Numbers = new int[ArrLength];
+
+            //Console.WriteLine("=============================");
+
+            //for (int i = 0; i < ArrLength; i++)
+            //{
+            //    do
+            //    {
+            //        Console.Write($"Numbers[{i}] :  ");
+            //    } while (!int.TryParse(Console.ReadLine(), out Numbers[i]));
+            //}
+
+            //Console.WriteLine("=============================");
+
+            //for (int i = Numbers.Length - 1 ; i >= 0 ; i--)
+            //{
+            //    Console.Write($"{Numbers[i]} ");
+            //}
+                
+            #endregion
         }
     }
 }
